@@ -2,8 +2,8 @@
 //  DirectoryObserver.m
 //  MbedDebuggerForMac
 //
-//  Created by Edisonthk on 4/25/14.
-//  Copyright (c) 2014 Maizework. All rights reserved.
+//  Created by Heng Lik Wee on 4/25/14.
+//  Copyright (c) 2014 Heng Lik Wee. All rights reserved.
 //
 
 #import "DirectoryObserver.h"

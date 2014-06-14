@@ -2,8 +2,8 @@
 //  MbedBinaryAutoMoverTests.m
 //  MbedBinaryAutoMoverTests
 //
-//  Created by Edisonthk on 2014/06/14.
-//  Copyright (c) 2014年 Maizework. All rights reserved.
+//  Created by Heng Lik Wee on 2014/06/14.
+//  Copyright (c) 2014年 Heng Lik Wee. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

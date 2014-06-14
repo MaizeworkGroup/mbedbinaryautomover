@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		415A7030194CA4DD00866CCA /* Image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE35194C9E38003CA7E9 /* Image.xcassets */; };
 		416CEDF8194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */; };
 		416CEE02194C2F9A003CA7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE00194C2F9A003CA7E9 /* InfoPlist.strings */; };
 		416CEE04194C2F9A003CA7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE03194C2F9A003CA7E9 /* main.m */; };
 		416CEE08194C2F9A003CA7E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE06194C2F9A003CA7E9 /* Credits.rtf */; };
 		416CEE0B194C2F9A003CA7E9 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */; };
 		416CEE0E194C2F9A003CA7E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */; };
-		416CEE10194C2F9A003CA7E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE0F194C2F9A003CA7E9 /* Images.xcassets */; };
 		416CEE17194C2F9A003CA7E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEE16194C2F9A003CA7E9 /* XCTest.framework */; };
 		416CEE18194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */; };
 		416CEE20194C2F9A003CA7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE1E194C2F9A003CA7E9 /* InfoPlist.strings */; };
 		416CEE22194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */; };
 		416CEE2D194C3BC0003CA7E9 /* DirectoryObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */; };
 		416CEE30194C3CBB003CA7E9 /* MWPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */; };
+		416CEE32194C57B7003CA7E9 /* MIT-LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE31194C57B7003CA7E9 /* MIT-LICENSE */; };
+		416CEE34194C57F1003CA7E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE33194C57F1003CA7E9 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +48,6 @@
 		416CEE09194C2F9A003CA7E9 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
 		416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
 		416CEE0D194C2F9A003CA7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		416CEE0F194C2F9A003CA7E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		416CEE15194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MbedBinaryAutoMoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		416CEE16194C2F9A003CA7E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		416CEE1D194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MbedBinaryAutoMoverTests-Info.plist"; sourceTree = "<group>"; };
@@ -56,6 +57,9 @@
 		416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryObserver.m; sourceTree = "<group>"; };
 		416CEE2E194C3CBB003CA7E9 /* MWPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPreferences.h; sourceTree = "<group>"; };
 		416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPreferences.m; sourceTree = "<group>"; };
+		416CEE31194C57B7003CA7E9 /* MIT-LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MIT-LICENSE"; sourceTree = "<group>"; };
+		416CEE33194C57F1003CA7E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		416CEE35194C9E38003CA7E9 /* Image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Image.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		416CEDEB194C2F9A003CA7E9 = {
 			isa = PBXGroup;
 			children = (
+				416CEE31194C57B7003CA7E9 /* MIT-LICENSE */,
+				416CEE33194C57F1003CA7E9 /* README.md */,
 				416CEDFD194C2F9A003CA7E9 /* MbedBinaryAutoMover */,
 				416CEE1B194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests */,
 				416CEDF6194C2F9A003CA7E9 /* Frameworks */,
@@ -124,11 +130,11 @@
 				416CEE09194C2F9A003CA7E9 /* MWAppDelegate.h */,
 				416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */,
 				416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */,
+				416CEE35194C9E38003CA7E9 /* Image.xcassets */,
 				416CEE2E194C3CBB003CA7E9 /* MWPreferences.h */,
 				416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */,
 				416CEE2B194C3BC0003CA7E9 /* DirectoryObserver.h */,
 				416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */,
-				416CEE0F194C2F9A003CA7E9 /* Images.xcassets */,
 				416CEDFE194C2F9A003CA7E9 /* Supporting Files */,
 			);
 			path = MbedBinaryAutoMover;
@@ -241,8 +247,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				415A7030194CA4DD00866CCA /* Image.xcassets in Resources */,
+				416CEE34194C57F1003CA7E9 /* README.md in Resources */,
 				416CEE02194C2F9A003CA7E9 /* InfoPlist.strings in Resources */,
-				416CEE10194C2F9A003CA7E9 /* Images.xcassets in Resources */,
+				416CEE32194C57B7003CA7E9 /* MIT-LICENSE in Resources */,
 				416CEE08194C2F9A003CA7E9 /* Credits.rtf in Resources */,
 				416CEE0E194C2F9A003CA7E9 /* MainMenu.xib in Resources */,
 			);
@@ -479,6 +487,7 @@
 				416CEE27194C2F9A003CA7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		416CEE28194C2F9A003CA7E9 /* Build configuration list for PBXNativeTarget "MbedBinaryAutoMoverTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +496,7 @@
 				416CEE2A194C2F9A003CA7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
