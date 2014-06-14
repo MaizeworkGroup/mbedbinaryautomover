@@ -8,7 +8,10 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface MWAppDelegate : NSObject <NSApplicationDelegate>
+#import "MWPreferences.h"
+#import "DirectoryObserver.h"
+
+@interface MWAppDelegate : NSObject <NSApplicationDelegate, BinDownloaded, NSUserNotificationCenterDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
 

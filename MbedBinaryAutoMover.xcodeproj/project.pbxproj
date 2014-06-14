@@ -18,6 +18,8 @@
 		416CEE18194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */; };
 		416CEE20194C2F9A003CA7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE1E194C2F9A003CA7E9 /* InfoPlist.strings */; };
 		416CEE22194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */; };
+		416CEE2D194C3BC0003CA7E9 /* DirectoryObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */; };
+		416CEE30194C3CBB003CA7E9 /* MWPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,10 @@
 		416CEE1D194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MbedBinaryAutoMoverTests-Info.plist"; sourceTree = "<group>"; };
 		416CEE1F194C2F9A003CA7E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MbedBinaryAutoMoverTests.m; sourceTree = "<group>"; };
+		416CEE2B194C3BC0003CA7E9 /* DirectoryObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryObserver.h; sourceTree = "<group>"; };
+		416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryObserver.m; sourceTree = "<group>"; };
+		416CEE2E194C3CBB003CA7E9 /* MWPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWPreferences.h; sourceTree = "<group>"; };
+		416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWPreferences.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,10 @@
 				416CEE09194C2F9A003CA7E9 /* MWAppDelegate.h */,
 				416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */,
 				416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */,
+				416CEE2E194C3CBB003CA7E9 /* MWPreferences.h */,
+				416CEE2F194C3CBB003CA7E9 /* MWPreferences.m */,
+				416CEE2B194C3BC0003CA7E9 /* DirectoryObserver.h */,
+				416CEE2C194C3BC0003CA7E9 /* DirectoryObserver.m */,
 				416CEE0F194C2F9A003CA7E9 /* Images.xcassets */,
 				416CEDFE194C2F9A003CA7E9 /* Supporting Files */,
 			);
@@ -253,7 +263,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				416CEE30194C3CBB003CA7E9 /* MWPreferences.m in Sources */,
 				416CEE0B194C2F9A003CA7E9 /* MWAppDelegate.m in Sources */,
+				416CEE2D194C3BC0003CA7E9 /* DirectoryObserver.m in Sources */,
 				416CEE04194C2F9A003CA7E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
