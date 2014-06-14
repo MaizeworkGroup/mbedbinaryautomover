@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416CEDF8194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */; };
+		416CEE02194C2F9A003CA7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE00194C2F9A003CA7E9 /* InfoPlist.strings */; };
+		416CEE04194C2F9A003CA7E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE03194C2F9A003CA7E9 /* main.m */; };
+		416CEE08194C2F9A003CA7E9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE06194C2F9A003CA7E9 /* Credits.rtf */; };
+		416CEE0B194C2F9A003CA7E9 /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */; };
+		416CEE0E194C2F9A003CA7E9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */; };
+		416CEE10194C2F9A003CA7E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE0F194C2F9A003CA7E9 /* Images.xcassets */; };
+		416CEE17194C2F9A003CA7E9 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEE16194C2F9A003CA7E9 /* XCTest.framework */; };
+		416CEE18194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */; };
+		416CEE20194C2F9A003CA7E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 416CEE1E194C2F9A003CA7E9 /* InfoPlist.strings */; };
+		416CEE22194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		416CEE19194C2F9A003CA7E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 416CEDEC194C2F9A003CA7E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416CEDF3194C2F9A003CA7E9;
+			remoteInfo = MbedBinaryAutoMover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		416CEDF4194C2F9A003CA7E9 /* MbedBinaryAutoMover.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MbedBinaryAutoMover.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		416CEDFA194C2F9A003CA7E9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		416CEDFB194C2F9A003CA7E9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		416CEDFC194C2F9A003CA7E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		416CEDFF194C2F9A003CA7E9 /* MbedBinaryAutoMover-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MbedBinaryAutoMover-Info.plist"; sourceTree = "<group>"; };
+		416CEE01194C2F9A003CA7E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416CEE03194C2F9A003CA7E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		416CEE05194C2F9A003CA7E9 /* MbedBinaryAutoMover-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MbedBinaryAutoMover-Prefix.pch"; sourceTree = "<group>"; };
+		416CEE07194C2F9A003CA7E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		416CEE09194C2F9A003CA7E9 /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
+		416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
+		416CEE0D194C2F9A003CA7E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		416CEE0F194C2F9A003CA7E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		416CEE15194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MbedBinaryAutoMoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		416CEE16194C2F9A003CA7E9 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		416CEE1D194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MbedBinaryAutoMoverTests-Info.plist"; sourceTree = "<group>"; };
+		416CEE1F194C2F9A003CA7E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MbedBinaryAutoMoverTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		416CEDF1194C2F9A003CA7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEDF8194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CEE12194C2F9A003CA7E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEE18194C2F9A003CA7E9 /* Cocoa.framework in Frameworks */,
+				416CEE17194C2F9A003CA7E9 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		416CEDEB194C2F9A003CA7E9 = {
+			isa = PBXGroup;
+			children = (
+				416CEDFD194C2F9A003CA7E9 /* MbedBinaryAutoMover */,
+				416CEE1B194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests */,
+				416CEDF6194C2F9A003CA7E9 /* Frameworks */,
+				416CEDF5194C2F9A003CA7E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		416CEDF5194C2F9A003CA7E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				416CEDF4194C2F9A003CA7E9 /* MbedBinaryAutoMover.app */,
+				416CEE15194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		416CEDF6194C2F9A003CA7E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416CEDF7194C2F9A003CA7E9 /* Cocoa.framework */,
+				416CEE16194C2F9A003CA7E9 /* XCTest.framework */,
+				416CEDF9194C2F9A003CA7E9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		416CEDF9194C2F9A003CA7E9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				416CEDFA194C2F9A003CA7E9 /* AppKit.framework */,
+				416CEDFB194C2F9A003CA7E9 /* CoreData.framework */,
+				416CEDFC194C2F9A003CA7E9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		416CEDFD194C2F9A003CA7E9 /* MbedBinaryAutoMover */ = {
+			isa = PBXGroup;
+			children = (
+				416CEE09194C2F9A003CA7E9 /* MWAppDelegate.h */,
+				416CEE0A194C2F9A003CA7E9 /* MWAppDelegate.m */,
+				416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */,
+				416CEE0F194C2F9A003CA7E9 /* Images.xcassets */,
+				416CEDFE194C2F9A003CA7E9 /* Supporting Files */,
+			);
+			path = MbedBinaryAutoMover;
+			sourceTree = "<group>";
+		};
+		416CEDFE194C2F9A003CA7E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416CEDFF194C2F9A003CA7E9 /* MbedBinaryAutoMover-Info.plist */,
+				416CEE00194C2F9A003CA7E9 /* InfoPlist.strings */,
+				416CEE03194C2F9A003CA7E9 /* main.m */,
+				416CEE05194C2F9A003CA7E9 /* MbedBinaryAutoMover-Prefix.pch */,
+				416CEE06194C2F9A003CA7E9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		416CEE1B194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests */ = {
+			isa = PBXGroup;
+			children = (
+				416CEE21194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m */,
+				416CEE1C194C2F9A003CA7E9 /* Supporting Files */,
+			);
+			path = MbedBinaryAutoMoverTests;
+			sourceTree = "<group>";
+		};
+		416CEE1C194C2F9A003CA7E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				416CEE1D194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests-Info.plist */,
+				416CEE1E194C2F9A003CA7E9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		416CEDF3194C2F9A003CA7E9 /* MbedBinaryAutoMover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CEE25194C2F9A003CA7E9 /* Build configuration list for PBXNativeTarget "MbedBinaryAutoMover" */;
+			buildPhases = (
+				416CEDF0194C2F9A003CA7E9 /* Sources */,
+				416CEDF1194C2F9A003CA7E9 /* Frameworks */,
+				416CEDF2194C2F9A003CA7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MbedBinaryAutoMover;
+			productName = MbedBinaryAutoMover;
+			productReference = 416CEDF4194C2F9A003CA7E9 /* MbedBinaryAutoMover.app */;
+			productType = "com.apple.product-type.application";
+		};
+		416CEE14194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416CEE28194C2F9A003CA7E9 /* Build configuration list for PBXNativeTarget "MbedBinaryAutoMoverTests" */;
+			buildPhases = (
+				416CEE11194C2F9A003CA7E9 /* Sources */,
+				416CEE12194C2F9A003CA7E9 /* Frameworks */,
+				416CEE13194C2F9A003CA7E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				416CEE1A194C2F9A003CA7E9 /* PBXTargetDependency */,
+			);
+			name = MbedBinaryAutoMoverTests;
+			productName = MbedBinaryAutoMoverTests;
+			productReference = 416CEE15194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		416CEDEC194C2F9A003CA7E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Maizework;
+				TargetAttributes = {
+					416CEE14194C2F9A003CA7E9 = {
+						TestTargetID = 416CEDF3194C2F9A003CA7E9;
+					};
+				};
+			};
+			buildConfigurationList = 416CEDEF194C2F9A003CA7E9 /* Build configuration list for PBXProject "MbedBinaryAutoMover" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 416CEDEB194C2F9A003CA7E9;
+			productRefGroup = 416CEDF5194C2F9A003CA7E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				416CEDF3194C2F9A003CA7E9 /* MbedBinaryAutoMover */,
+				416CEE14194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		416CEDF2194C2F9A003CA7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEE02194C2F9A003CA7E9 /* InfoPlist.strings in Resources */,
+				416CEE10194C2F9A003CA7E9 /* Images.xcassets in Resources */,
+				416CEE08194C2F9A003CA7E9 /* Credits.rtf in Resources */,
+				416CEE0E194C2F9A003CA7E9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CEE13194C2F9A003CA7E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEE20194C2F9A003CA7E9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		416CEDF0194C2F9A003CA7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEE0B194C2F9A003CA7E9 /* MWAppDelegate.m in Sources */,
+				416CEE04194C2F9A003CA7E9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		416CEE11194C2F9A003CA7E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416CEE22194C2F9A003CA7E9 /* MbedBinaryAutoMoverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		416CEE1A194C2F9A003CA7E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 416CEDF3194C2F9A003CA7E9 /* MbedBinaryAutoMover */;
+			targetProxy = 416CEE19194C2F9A003CA7E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		416CEE00194C2F9A003CA7E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CEE01194C2F9A003CA7E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		416CEE06194C2F9A003CA7E9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CEE07194C2F9A003CA7E9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		416CEE0C194C2F9A003CA7E9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CEE0D194C2F9A003CA7E9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		416CEE1E194C2F9A003CA7E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				416CEE1F194C2F9A003CA7E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		416CEE23194C2F9A003CA7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		416CEE24194C2F9A003CA7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		416CEE26194C2F9A003CA7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MbedBinaryAutoMover/MbedBinaryAutoMover-Prefix.pch";
+				INFOPLIST_FILE = "MbedBinaryAutoMover/MbedBinaryAutoMover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		416CEE27194C2F9A003CA7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MbedBinaryAutoMover/MbedBinaryAutoMover-Prefix.pch";
+				INFOPLIST_FILE = "MbedBinaryAutoMover/MbedBinaryAutoMover-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		416CEE29194C2F9A003CA7E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MbedBinaryAutoMover.app/Contents/MacOS/MbedBinaryAutoMover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MbedBinaryAutoMover/MbedBinaryAutoMover-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MbedBinaryAutoMoverTests/MbedBinaryAutoMoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		416CEE2A194C2F9A003CA7E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MbedBinaryAutoMover.app/Contents/MacOS/MbedBinaryAutoMover";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MbedBinaryAutoMover/MbedBinaryAutoMover-Prefix.pch";
+				INFOPLIST_FILE = "MbedBinaryAutoMoverTests/MbedBinaryAutoMoverTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		416CEDEF194C2F9A003CA7E9 /* Build configuration list for PBXProject "MbedBinaryAutoMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CEE23194C2F9A003CA7E9 /* Debug */,
+				416CEE24194C2F9A003CA7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416CEE25194C2F9A003CA7E9 /* Build configuration list for PBXNativeTarget "MbedBinaryAutoMover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CEE26194C2F9A003CA7E9 /* Debug */,
+				416CEE27194C2F9A003CA7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		416CEE28194C2F9A003CA7E9 /* Build configuration list for PBXNativeTarget "MbedBinaryAutoMoverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				416CEE29194C2F9A003CA7E9 /* Debug */,
+				416CEE2A194C2F9A003CA7E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 416CEDEC194C2F9A003CA7E9 /* Project object */;
+}
